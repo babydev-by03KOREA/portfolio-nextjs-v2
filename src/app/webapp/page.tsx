@@ -32,6 +32,7 @@ const webApp = ({children}: {
     return (
         <CommonLayout>
             <CallHandler elementArray={elementArray}/>
+            {children}
         </CommonLayout>
     );
 };
