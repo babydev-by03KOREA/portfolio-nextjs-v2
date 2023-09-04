@@ -1,4 +1,6 @@
 import CallHandler from "@/app/webapp/callHandler";
+import React from "react";
+import CommonLayout from "@/component/commonLayout";
 
 type elemArrayType = {
     elem: string;
@@ -24,8 +26,14 @@ const elementArray: elemArrayType = [
     }
 ];
 
-const webApp = () => {
-    return <CallHandler elementArray={elementArray}/>
-}
+const webApp = ({children}: {
+    children: React.ReactNode,
+}) => {
+    return (
+        <CommonLayout>
+            <CallHandler elementArray={elementArray}/>
+        </CommonLayout>
+    );
+};
 
 export default webApp;
