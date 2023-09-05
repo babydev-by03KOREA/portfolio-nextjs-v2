@@ -3,17 +3,17 @@
 import React from "react";
 import tw from "tailwind-styled-components";
 import NavigationBar from "@/component/nav/navigationBar";
+import MainDescriptionLayout from "@/component/main/mainDescriptionLayout";
 
 export default function CommonLayout({children}: {
     children: React.ReactNode,
 }) {
     return (
-        <>
-            <BackgroundDiv>
-                <NavigationBar/>
-                {children}
-            </BackgroundDiv>
-        </>
+        <BackgroundDiv>
+            <NavigationBar/>
+            {children}
+            <MainDescriptionLayout/>
+        </BackgroundDiv>
     );
 }
 

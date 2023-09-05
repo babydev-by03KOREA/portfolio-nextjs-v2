@@ -37,6 +37,7 @@ const HeaderTextElements = tw.span`
     non-italic
     font-normal
     px-7
+    text-font-white
 `;
 
 // const HeadUnderBar = tw.div`
