@@ -30,13 +30,10 @@ const elementArray: elemArrayType = [
     }
 ];
 
-const webApp = ({children}: {
-    children: React.ReactNode,
-}) => {
+const webApp = () => {
     return (
         <CommonLayout>
             <CallHandler elementArray={elementArray}/>
-            {children}
         </CommonLayout>
     );
 };
