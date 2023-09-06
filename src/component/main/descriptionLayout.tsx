@@ -52,7 +52,7 @@ const StackDescriptionSpanFontGreen = tw.span`
     text-5xl
     text-font-green
     font-nanum-700 
-    leading-[1.65]
+    leading-[1.2]
 `;
 
 const StackDescriptionSpanFontWhite = tw.span`
@@ -61,7 +61,7 @@ const StackDescriptionSpanFontWhite = tw.span`
     text-5xl
     text-font-white
     font-nanum-700
-    leading-[0.7] 
+    leading-[1.2] 
 `;
 
 const TechStackSpan = tw.span`
