@@ -6,7 +6,7 @@ type elemArrayType = {
     elem: string;
     style: string;
     methodName: string;
-    methodObject: { userId: string, point: number, isNowUse: boolean };
+    methodObject: { userId: string, price: number, isNowUse: boolean, from: number };
 }[];
 
 export default function CallHandler({elementArray}: { elementArray: elemArrayType }) {
