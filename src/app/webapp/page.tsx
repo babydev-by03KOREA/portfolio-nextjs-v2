@@ -13,7 +13,7 @@ const elementArray: elemArrayType = [
     {
         style: "bg-red-200",
         elem: "미세한 진동!",
-        methodName: "buyPoint",
+        methodName: "inAppReview",
         methodObject: {userId: "2212011230309008", price: 120, isNowUse: true, from: 2}
     },
     {
