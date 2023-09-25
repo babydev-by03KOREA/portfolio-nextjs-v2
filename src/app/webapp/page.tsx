@@ -18,15 +18,15 @@ const elementArray: elemArrayType = [
     },
     {
         style: "bg-red-300",
-        elem: "강한 진동!",
+        elem: "25 픽",
         methodName: "buyPoint",
-        methodObject: {userId: "2212011230309008", price: 400, isNowUse: true, from: 2}
+        methodObject: {userId: "2212011230309008", price: 25, isNowUse: true, from: 2}
     },
     {
         style: "bg-red-400",
-        elem: "약한 진동!",
+        elem: "125 픽",
         methodName: "buyPoint",
-        methodObject: {userId: "2212011230309008", price: 800, isNowUse: true, from: 2}
+        methodObject: {userId: "2212011230309008", price: 125, isNowUse: true, from: 2}
     }
 ];
 
