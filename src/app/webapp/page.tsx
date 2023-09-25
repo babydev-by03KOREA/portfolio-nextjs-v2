@@ -14,19 +14,19 @@ const elementArray: elemArrayType = [
         style: "bg-red-200",
         elem: "미세한 진동!",
         methodName: "inAppReview",
-        methodObject: {userId: "2212011230309008", price: 120, isNowUse: true, from: 2}
+        methodObject: {userId: "2309011820579008", price: 120, isNowUse: true, from: 2}
     },
     {
         style: "bg-red-300",
         elem: "25 픽",
         methodName: "buyPoint",
-        methodObject: {userId: "2212011230309008", price: 25, isNowUse: true, from: 2}
+        methodObject: {userId: "2309011820579008", price: 25, isNowUse: true, from: 2}
     },
     {
         style: "bg-red-400",
         elem: "125 픽",
         methodName: "buyPoint",
-        methodObject: {userId: "2212011230309008", price: 125, isNowUse: true, from: 2}
+        methodObject: {userId: "2309011820579008", price: 125, isNowUse: true, from: 2}
     }
 ];
 
