@@ -12,8 +12,8 @@ type elemArrayType = {
 const elementArray: elemArrayType = [
     {
         style: "bg-red-200",
-        elem: "미세한 진동!",
-        methodName: "inAppReview",
+        elem: "연락처 권한",
+        methodName: "getContacts",
         methodObject: {userId: "2309011820579008", price: 120, isNowUse: true, from: 2}
     },
     {
